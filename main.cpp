@@ -1,5 +1,5 @@
 #include <iostream>
-#include <Camera.hpp>
+#include <sl/Camera.hpp>
 
 int main() {
     // Initialize and open the camera

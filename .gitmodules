@@ -1,0 +1,3 @@
+[submodule "zed-yolo"]
+	path = zed-yolo
+	url = https://github.com/stereolabs/zed-yolo.git

@@ -1,0 +1,3 @@
+/home/nvidia/Documents/StereoscopicTracking/build/CMakeFiles/rebuild_cache.dir
+/home/nvidia/Documents/StereoscopicTracking/build/CMakeFiles/ZedPlayGround.dir
+/home/nvidia/Documents/StereoscopicTracking/build/CMakeFiles/edit_cache.dir
