@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ZedPlayGround.dir/main.cpp.o -o ZedPlayGround 
