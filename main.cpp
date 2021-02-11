@@ -1,27 +1,25 @@
 #include <iostream>
-#include <Camera.hpp>
+#include <sl/Camera.hpp>
 
 int main() {
-    // Initialize and open the camera
     // Create a ZED camera object
-    Camera zed;
+    sl::Camera zed;
 
     // Set configuration parameters
-    InitParameters init_params;
-    init_params.camera_resolution = RESOLUTION::HD1080 ;
+    sl::InitParameters init_params;
+    init_params.camera_resolution = sl::RESOLUTION::HD1080 ;
     init_params.camera_fps = 30 ;
 
-    zed.open();
+    // Open the camera
+    auto err = zed.open(init_params);
+    if (err != sl::ERROR_CODE::SUCCESS)
+        exit(-1);
 
-    // Create a matrix to store the image
-    sl::Mat image;
-    int i = 0;
+    // Get camera information (serial number)
+    int zed_serial = zed.getCameraInformation().serial_number;
+    printf("Hello! This is my serial number: %d\n", zed_serial);
 
-    while(i++ < 1000){
-        // Grab a frame and retrieve the left image
-        zed.grab();
-        zed.retrieveImage(image, sl::VIEW::LEFT);
-    }
-
+    // Close the camera
+    zed.close();
     return 0;
 }
