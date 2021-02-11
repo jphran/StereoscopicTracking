@@ -1,3 +1,0 @@
-/home/jfrancis/Documents/StereoscopicTracking/build/CMakeFiles/rebuild_cache.dir
-/home/jfrancis/Documents/StereoscopicTracking/build/CMakeFiles/ZedPlayGround.dir
-/home/jfrancis/Documents/StereoscopicTracking/build/CMakeFiles/edit_cache.dir

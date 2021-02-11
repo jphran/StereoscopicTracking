@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/ZedPlayGround.dir/main.cpp.o -o ZedPlayGround   -L/usr/local/zed/lib  -L/usr/local/cuda/lib64  -Wl,-rpath,/usr/local/zed/lib:/usr/local/cuda/lib64 -lsl_zed 
