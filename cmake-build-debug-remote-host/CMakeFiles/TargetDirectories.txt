@@ -1,0 +1,3 @@
+/tmp/StereoscopicTracking/cmake-build-debug-remote-host/CMakeFiles/rebuild_cache.dir
+/tmp/StereoscopicTracking/cmake-build-debug-remote-host/CMakeFiles/ZedPlayGround.dir
+/tmp/StereoscopicTracking/cmake-build-debug-remote-host/CMakeFiles/edit_cache.dir

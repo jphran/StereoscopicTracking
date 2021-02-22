@@ -184,24 +184,6 @@ device_types.h
 host_defines.h
 /usr/local/cuda/include/crt/host_defines.h
 
-/usr/local/cuda/include/crt/sm_80_rt.h
-builtin_types.h
-/usr/local/cuda/include/crt/builtin_types.h
-device_types.h
-/usr/local/cuda/include/crt/device_types.h
-host_defines.h
-/usr/local/cuda/include/crt/host_defines.h
-sm_80_rt.hpp
-/usr/local/cuda/include/crt/sm_80_rt.hpp
-
-/usr/local/cuda/include/crt/sm_80_rt.hpp
-builtin_types.h
-/usr/local/cuda/include/crt/builtin_types.h
-device_types.h
-/usr/local/cuda/include/crt/device_types.h
-host_defines.h
-/usr/local/cuda/include/crt/host_defines.h
-
 /usr/local/cuda/include/cuda.h
 stdlib.h
 -
